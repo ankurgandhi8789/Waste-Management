@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumer Electronics - E-Waste Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #008080;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #006666;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00cccc;
+        }
+
+        .hero {
+            background: url('e-waste.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h3 {
+            color: #008080;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .recycle-steps {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .recycle-step {
+            flex: 1;
+            min-width: 280px;
+            background: #f9f9f9;
+            border: 2px solid #008080;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .recycle-step:hover {
+            transform: scale(1.05);
+        }
+
+        .recycle-step h4 {
+            color: #006666;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .recycle-steps {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Consumer Electronics</h1>
+        <p>Promoting Sustainable E-Waste Management</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About E-Waste</a></li>
+            <li><a href="#recycle">Recycling Process</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h2>Reduce, Reuse, Recycle - The Future of Electronics</h2>
+    </div>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h3>About E-Waste</h3>
+            <p>
+                E-waste, or electronic waste, refers to discarded electronic devices like phones, computers, and appliances. It is a growing environmental concern, as these devices often contain hazardous materials.
+            </p>
+            <p>
+                Proper management of e-waste ensures valuable materials are recycled, reducing the need for mining and lowering the environmental impact.
+            </p>
+        </section>
+
+        <section id="recycle" class="section">
+            <h3>Recycling Process</h3>
+            <div class="recycle-steps">
+                <div class="recycle-step">
+                    <h4>1. Collection</h4>
+                    <p>Gathering discarded electronic items from consumers and businesses.</p>
+                </div>
+                <div class="recycle-step">
+                    <h4>2. Sorting</h4>
+                    <p>Separating items into categories like plastics, metals, and usable parts.</p>
+                </div>
+                <div class="recycle-step">
+                    <h4>3. Dismantling</h4>
+                    <p>Breaking down devices into components for further processing.</p>
+                </div>
+                <div class="recycle-step">
+                    <h4>4. Recycling</h4>
+                    <p>Extracting valuable materials like gold, copper, and aluminum for reuse.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h3>Contact Us</h3>
+            <p>If you have questions about e-waste recycling, get in touch with us:</p>
+            <p>Email: info@ewastemanagement.com</p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Consumer Electronics | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

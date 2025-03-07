@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computers & Accessories - E-Waste Management</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #1a73e8;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            padding: 10px 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .hero {
+            background-image: url('https://example.com/e-waste-recycle.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        section {
+            margin: 40px 0;
+        }
+
+        section h3 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #1a73e8;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .card h4 {
+            margin: 15px 0;
+            color: #333;
+        }
+
+        .card p {
+            color: #555;
+        }
+
+        footer {
+            background-color: #1a73e8;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .card-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav ul li {
+                padding: 10px;
+            }
+
+            nav ul li a {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Computers & Accessories - E-Waste Management</h1>
+        <p>Recycling today for a better tomorrow</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#importance">Why Recycle?</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#how">How to Recycle</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- <div class="hero">
+        <h2>Reduce. Reuse. Recycle.</h2>
+    </div> -->
+
+    <div class="container">
+        <section id="importance">
+            <h3>Why Recycle?</h3>
+            <p>E-waste is one of the fastest-growing waste streams globally. Recycling helps in reducing harmful environmental impacts caused by improper disposal of electronic waste.</p>
+        </section>
+
+        <section id="benefits">
+            <h3>Benefits of Recycling E-Waste</h3>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://example.com/recycle-icon.jpg" alt="Recycle Icon">
+                    <h4>Environmental Protection</h4>
+                    <p>Recycling reduces pollution and conserves natural resources.</p>
+                </div>
+                <div class="card">
+                    <img src="https://example.com/savings-icon.jpg" alt="Savings Icon">
+                    <h4>Economic Value</h4>
+                    <p>Recycling materials like gold and copper saves money and resources.</p>
+                </div>
+                <div class="card">
+                    <img src="https://example.com/community-icon.jpg" alt="Community Icon">
+                    <h4>Community Health</h4>
+                    <p>Proper recycling ensures hazardous materials don’t harm communities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how">
+            <h3>How to Recycle</h3>
+            <p>Follow these simple steps to recycle your computers and accessories:</p>
+            <ul>
+                <li>Locate certified e-waste recycling centers near you.</li>
+                <li>Drop off your unused or broken electronics responsibly.</li>
+                <li>Consider donating working devices to charities or schools.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer id="contact">
+        <p>For more information, contact us at <a href="mailto:recycle@ewaste.com" style="color: white;">recycle@ewaste.com</a></p>
+        <p>&copy; 2025 Computers & Accessories - E-Waste Management</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register or Login - E-Waste Management</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <div class="logo-container">
+        <img src="EWRI-Logo-for-site-500x300px.png" alt="Logo" class="logo">
+    </div>
+    <h1 class="heading-name">E-Waste Management System</h1>
+</header>
+
+<!-- Registration and Login Section -->
+<section id="auth-section">
+    <div class="form-container">
+        <div id="login-form">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" placeholder="Enter Username" required>
+
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" placeholder="Enter Password" required>
+
+                <button type="submit"> Login</button>
+                <p><a href="#" id="forgot-password-link">Forgot Password?</a></p>
+                <p>Not registered? <a href="#" id="register-link">Create an account</a></p>
+            </form>
+        </div>
+
+        <div id="register-form" class="hidden">
+            <h2>Register</h2>
+            <form id="register-Form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Enter Full Name" required>
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Choose a Username" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="Enter Phone Number" required>
+
+                <label for="password">Create Password:</label>
+                <input type="password" id="password" placeholder="Create a Password" required>
+
+                <button type="submit">Register</button>
+                <p>Already have an account? <a href="#" id="login-link">Login here</a></p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 E-Waste Management System. All Rights Reserved.</p>
+    <div class="footer-links">
+        <a href="#privacy">Privacy Policy</a> |
+        <a href="#terms">Terms of Service</a> |
+        <a href="#contact">Contact Us</a>
+    </div>
+</footer>
+
+<script src="registration.js"></script>
+</body>
+</html>
